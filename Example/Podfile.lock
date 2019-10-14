@@ -1,5 +1,5 @@
 PODS:
-  - Adapter_iOS (0.1.0)
+  - Adapter_iOS (0.0.1)
 
 DEPENDENCIES:
   - Adapter_iOS (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Adapter_iOS: e8070cb581dd6b387857c5fbd1ce367841750c7a
+  Adapter_iOS: 7cf8d834a7af7fb503723b0987dcde3611553162
 
 PODFILE CHECKSUM: 59ea942a5c44bba0e329ee2e2e14b95e653d5985
 
