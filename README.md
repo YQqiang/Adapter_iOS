@@ -22,7 +22,7 @@ pod 'Adapter_iOS'
 
 ## Author
 
-oxape, 1054572107@qq.com
+sungrow, sungrow@sungrowpower.com
 
 ## License
 

@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07DE48443211DDAFF5DED39E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		07DE48443211DDAFF5DED39E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2E90D87E40063AEAB242DAFC /* Pods_Adapter_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Adapter_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CD8EC99CF9E6751289FCD2D /* Pods-Adapter_iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adapter_iOS_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Adapter_iOS_Tests/Pods-Adapter_iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* Adapter_iOS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adapter_iOS_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,8 +63,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8863C755734862ECA458FC5C /* Pods-Adapter_iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adapter_iOS_Example.release.xcconfig"; path = "Target Support Files/Pods-Adapter_iOS_Example/Pods-Adapter_iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D3F5DB823EE922442EE18EC5 /* Pods_Adapter_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Adapter_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D689F4E67822539D07EEA869 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		DA2D78BBC9C75A4D8E5FCF26 /* Adapter_iOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Adapter_iOS.podspec; path = ../Adapter_iOS.podspec; sourceTree = "<group>"; };
+		D689F4E67822539D07EEA869 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DA2D78BBC9C75A4D8E5FCF26 /* Adapter_iOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Adapter_iOS.podspec; path = ../Adapter_iOS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DD17924BBE4485C4BE737547 /* Pods-Adapter_iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adapter_iOS_Example.debug.xcconfig"; path = "Target Support Files/Pods-Adapter_iOS_Example/Pods-Adapter_iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FA1BD746A4A6E66CC4F3C663 /* Pods-Adapter_iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adapter_iOS_Tests.release.xcconfig"; path = "Target Support Files/Pods-Adapter_iOS_Tests/Pods-Adapter_iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +103,6 @@
 				3CD8EC99CF9E6751289FCD2D /* Pods-Adapter_iOS_Tests.debug.xcconfig */,
 				FA1BD746A4A6E66CC4F3C663 /* Pods-Adapter_iOS_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

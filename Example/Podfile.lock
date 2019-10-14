@@ -1,0 +1,16 @@
+PODS:
+  - Adapter_iOS (0.1.0)
+
+DEPENDENCIES:
+  - Adapter_iOS (from `../`)
+
+EXTERNAL SOURCES:
+  Adapter_iOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Adapter_iOS: e8070cb581dd6b387857c5fbd1ce367841750c7a
+
+PODFILE CHECKSUM: 59ea942a5c44bba0e329ee2e2e14b95e653d5985
+
+COCOAPODS: 1.7.0.beta.3
